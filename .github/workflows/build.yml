@@ -31,6 +31,8 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 10.x
+      - run: ls -lah
+      - run: ls -lah *
       - run: yarn install
       - run: yarn test
       - name: SonarCloud Scan
