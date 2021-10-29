@@ -19,6 +19,7 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: yarn install
+    - run: mkdir coverage
     - run: yarn test
   sonarcloud:
     name: SonarCloud
