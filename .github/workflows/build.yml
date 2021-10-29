@@ -30,8 +30,7 @@ jobs:
       - name: Running Jest
         uses: actions/setup-node@v1
         with:
-          node-version: 12.x
-      - run: mkdir coverage
+          node-version: 10.x
       - run: yarn install
       - run: yarn test
       - name: SonarCloud Scan
