@@ -33,7 +33,6 @@ jobs:
           node-version: 12.x
       - run: yarn install
       - run: yarn test
-      - run: cat coverage/lcov.info
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@master
         env:
