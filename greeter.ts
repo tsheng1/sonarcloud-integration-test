@@ -9,6 +9,28 @@ class Student {
 	}
 }
 
+class Teacher {
+	fullName: string;
+	constructor(
+		public firstName: string,
+		public middleInicial: string,
+		public lastName: string
+	){
+		this.fullName = firstName + " " + middleInicial + " " + lastName;
+	}
+}
+
+class Staff {
+	fullName: string;
+	constructor(
+		public firstName: string,
+		public middleInicial: string,
+		public lastName: string
+	){
+		this.fullName = firstName + " " + middleInicial + " " + lastName;
+	}
+}
+
 interface Person {
 	firstName: string;
 	lastName: string;
