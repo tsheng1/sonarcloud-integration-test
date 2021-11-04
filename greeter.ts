@@ -23,3 +23,10 @@ let password = "it should't be here"
 let token = "this neither"
 
 document.body.textContent = greeter(user);
+document.body.textContent = greeter("This must be a constant!");
+document.body.textContent = greeter("This must be a constant!");
+document.body.textContent = greeter("This must be a constant!");
+document.body.textContent = greeter("This must be a constant!");
+document.body.textContent = greeter("This must be a constant!");
+document.body.textContent = greeter("This must be a constant!");
+document.body.textContent = greeter("This must be a constant!");
